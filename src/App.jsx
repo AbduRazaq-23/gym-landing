@@ -7,18 +7,16 @@ import LeadForm from "./components/LeadForm";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
       <Hero />
-      <Pricing />
       <Features />
+      <Pricing />
       <Testimonials />
       <LeadForm />
       <FAQ />
       <Footer />
-    </>
+    </div>
   );
 }
-
-export default App;

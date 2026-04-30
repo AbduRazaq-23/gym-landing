@@ -71,7 +71,7 @@ export default function Footer() {
         {/* BOTTOM SECTION */}
         <div className="border-t border-gray-600 mt-12 pt-8 ">
           {/* COPYRIGHT */}
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-gray-400 text-center">
             © 2026 Fitness Landing. All rights reserved.
           </p>
         </div>
